@@ -1,0 +1,97 @@
+html {
+    background-image: url("images\ \(2\).jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+fieldset,legend {
+    background-color: lightseagreen;
+}
+legend{
+    font-size: x-large;
+}
+.list1 {
+list-style-type: none;
+float: left;
+
+
+}
+
+li {
+ margin: 0px 100px;
+background-color: teal;
+text-align: center;
+color:white;
+font-size: 20px ;
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, monospace, serif;
+}
+
+unselected {
+    background: #fafafa;
+    color: darkslategrey;
+}
+
+.tabs-panels {
+    min-height: 200px;
+}
+
+
+.tabs-panels ul {
+    margin: 0;
+    padding: 0;
+}
+
+.tabs-panels ul li {
+    list-style-type: none;
+    display: inline-block;
+    background: darkslategray;
+    opacity: 95%;
+    margin: auto;
+    padding: 3px 10px;
+    color: #fafafa;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+.tabs-panels ul li:hover {
+    color: #fafafa;
+    background: darkslategray;
+    opacity: 95%;
+}
+
+.tabs-panels ul li.active {
+    color: #fafafa;
+    background: darkslategray;
+    opacity: 95%;
+}
+
+.tabs-panels .panel {
+    display: none;
+
+    padding: 30px;
+    border-radius: 0 0 10px 10px;
+}
+
+.tabs-panels .panel.active {
+    display: block;
+}
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    float: right;
+}
+p{
+    margin: auto;
+    font-size: larger;
+}
