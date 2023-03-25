@@ -22,3 +22,15 @@ $(function () {
 $("p").click(function(){
   $("p").css("color", "darkblue");
 });
+
+$(".sit").click(function(){
+    $(".sit").animate({left: "300px"});
+})
+
+$(function(){
+  $("h3").click(function(){
+    $(".sit").animate({
+      left: '250px',
+    });
+  });
+});
