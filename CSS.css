@@ -9,6 +9,7 @@ fieldset,legend {
 }
 legend{
     font-size: xx-large;
+    color: darkblue;
 }
 .list1 {
 list-style-type: none;
